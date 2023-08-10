@@ -1,4 +1,4 @@
-<!-- 测试todo -->
+<!-- 测试TODO -->
 <template>
   <div class="greetings">
     <el-button type="primary">Primary</el-button>
@@ -16,16 +16,21 @@
       drag
       action="https://run.mocky.io/v3/9d059bf9-4660-45f2-925d-ce80ad6c4d15"
     >
-      <div class="el-upload__text">Drop file here or <em>click to upload</em></div>
+      <div class="el-upload__text">
+        Drop file here or <em>click to upload</em>
+      </div>
       <template #tip>
-        <div class="el-upload__tip">jpg/png files with a size less than 500kb</div>
+        <div class="el-upload__tip">
+          jpg/png files with a size less than 500kb
+        </div>
       </template>
     </el-upload>
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      What's next?
     </h3>
   </div>
 </template>

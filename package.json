@@ -53,6 +53,6 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,ts,vue}": "yarn lint"
+    "**/*.{js,ts,vue}": "npm run lint"
   }
 }
