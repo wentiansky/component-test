@@ -20,6 +20,6 @@ module.exports = {
   },
   rules: {
     'vue/multi-word-component-names': 'off',
-    'no-warning-comments': ['warn', { terms: ['todo', 'TODO'], location: 'anywhere' }]
+    'no-warning-comments': ['error', { terms: ['todo', 'TODO'], location: 'anywhere' }]
   }
 }
